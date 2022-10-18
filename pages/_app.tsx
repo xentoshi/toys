@@ -1,7 +1,6 @@
 import type { AppProps } from 'next/app'
 import { ChakraProvider, extendTheme } from '@chakra-ui/react'
 import WalletContextProvider from '../components/WalletContextProvider'
-import { Wallet } from '@project-serum/anchor'
 
 const colors = {
   background: "#1f1f1f",
